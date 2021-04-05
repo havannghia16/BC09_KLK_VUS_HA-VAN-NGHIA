@@ -1,0 +1,134 @@
+/* GLOBAL CSS */
+/* SẼ GIỮ NGUYÊN KÍCH THƯỚC THẺ KHI THÊM PADDING */
+* {
+  box-sizing: border-box;
+}
+/* XÓA HIỆU ỨNG CỦA FLOAT */
+.clear {
+  clear: both;
+}
+/* B1: xóa dấu của danh sách */
+.header ul {
+  list-style: none;
+  background-color: black;
+  padding: 10px;
+}
+
+.header a {
+  color: white;
+  /* xóa dấu gạch dưới của thẻ a */
+  text-decoration: none;
+}
+.header li {
+  display: inline;
+  margin: 10px;
+}
+/* CAROUSEL */
+.carousel {
+  background-image: url(../img/slider_1.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/* INTRO */
+.intro__text b {
+  text-transform: uppercase;
+  color: red;
+}
+/* PRODUCTS */
+.products h2 {
+  text-align: center;
+}
+.products__item {
+  width: 25%;
+  float: left;
+  padding: 10px;
+}
+.products__item img {
+  width: 100%;
+}
+.products__item button {
+  background-color: red;
+  color: white;
+  border-radius: 3px;
+}
+/* BANNER */
+.banner {
+  background-image: url(../img/nature.jpg);
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.banner__circle {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(255, 0, 0, 0.5);
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+}
+.banner__circle p:nth-child(2) {
+  font-size: 50px;
+  text-align: center;
+  margin: 10px 0;
+}
+.banner__circle h2 {
+  margin-top: 35px;
+}
+.intro__product-left,
+.intro__product-right {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.intro__item {
+  float: left;
+  padding: 5px;
+}
+.intro__item-1 {
+  width: 50%;
+}
+.intro__item-2 {
+  width: 100%;
+}
+.intro__item img {
+  width: 100%;
+}
+.services {
+  width: 60%;
+  margin: 0 auto;
+}
+.services__content {
+  width: 33.33333%;
+  float: left;
+  text-align: center;
+  margin-top: 20px;
+}
+.services__content i {
+  font-size: 40px;
+  color: black;
+}
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+}
+.footer h2 {
+  margin: 0 auto;
+}
+.footer p {
+  margin: 0 auto;
+}
+.footer a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
